@@ -266,7 +266,7 @@ body {
   font-family: "zilla Slab";
   line-height: 1.2;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #c6975d, #a0522d);
+  background: rgba( 255, 255, 255, 0.95) ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
