@@ -133,7 +133,7 @@ section {
 }
 
 .book-btn {
-  background: linear-gradient(135deg, #8b4513, #a0522d);
+  background: linear-gradient(135deg, #49aa11, #48a02d);
   color: white;
   border: none;
   padding: 12px 24px;
@@ -141,12 +141,12 @@ section {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
+  box-shadow: 0 4px 15px rgba(63, 139, 19, 0.3);
 }
 
 .book-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4);
+  box-shadow: 0 6px 20px rgba(53, 139, 19, 0.4);
 }
 
 .mobile-menu-btn {
@@ -325,7 +325,7 @@ footer {
       }
       .logo2 {
           width: 80px;
-          height: 70px;
+          height: 80px;
           border-radius: 50%;
         }
 }
