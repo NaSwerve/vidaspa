@@ -434,6 +434,10 @@ ul {
   line-height: 1.6;
 }
 
+.benefits li span {
+  font-weight: 500;
+}
+
 .benefits li::marker {
   color: #333;
 }
@@ -520,7 +524,6 @@ ul {
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.2;
 }
 
 .accordion_text li::marker {
