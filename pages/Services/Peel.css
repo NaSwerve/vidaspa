@@ -708,9 +708,10 @@ footer{
   padding: 0 30px;
 }
 
-.testimonial {
-  margin: auto 0;
-  padding: 0 10px;
+.testimonial blockquote {
+  padding: 20px 60px;
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 .care,
