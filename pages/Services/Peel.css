@@ -356,6 +356,56 @@ ul {
   color: #333;
 }
 
+.korea {
+  width: 100%;
+  margin: 60px auto;
+  padding: 0 40px;
+  background: rgba(136, 136, 241, 0.205);
+}
+
+.korea h2{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "zilla slab", serif;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.korea p{
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.korea h3{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "zilla slab", serif;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.korea span{
+  font-weight: 500;
+}
+
+.korea ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.korea li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.korea li::marker {
+  color: #333;
+}
+
 
 /* Benefits */
 .benefits {
@@ -459,6 +509,22 @@ ul {
   font-size: 16px;
   color: #555;
   font-weight: 300;
+}
+
+.accordion_text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.accordion_text li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.accordion_text li::marker {
+  color: #333;
 }
 
 .accordion-header.active .plus {
