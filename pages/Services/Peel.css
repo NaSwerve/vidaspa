@@ -308,6 +308,54 @@ ul {
   object-fit: cover;
 }
 
+.about-peel{
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 90px;
+}
+
+.about-peel h2{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "zilla slab", serif;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-peel h3{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "zilla slab", serif;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-peel p {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.about-peel span{
+  font-weight: 500;
+}
+
+.about-peel ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-peel li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.about-peel li::marker {
+  color: #333;
+}
+
 
 /* Benefits */
 .benefits {
