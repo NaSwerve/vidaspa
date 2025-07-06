@@ -479,8 +479,8 @@ font-family: "zilla slab", serif;
 }
 
 .accordion_text h3{
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .accordion-header.active .plus {
