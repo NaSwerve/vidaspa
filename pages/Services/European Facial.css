@@ -330,7 +330,7 @@ font-family: "zilla slab", serif;
 }
 
 .process span{
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 .experience-content h2 {
@@ -472,6 +472,15 @@ font-family: "zilla slab", serif;
   font-size: 16px;
   color: #555;
   font-weight: 300;
+}
+
+.accordion_text span{
+  font-weight: 500;
+}
+
+.accordion_text h3{
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .accordion-header.active .plus {
