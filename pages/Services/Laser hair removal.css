@@ -677,6 +677,10 @@ footer{
   text-align: center;
 }
 
+.about-laser {
+  padding: 0 5px;
+}
+
 .benefits {
   padding: 0 30px;
 }
