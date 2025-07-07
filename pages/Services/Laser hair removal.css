@@ -354,6 +354,54 @@ ul {
   object-fit: cover;
 }
 
+.about-laser {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 90px;
+}
+
+.about-laser h2{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "zilla slab", serif;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-laser h3{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "zilla slab", serif;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-laser p {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.about-laser span{
+  font-weight: 500;
+}
+
+.about-laser ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-laser li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.about-laser li::marker {
+  color: #333;
+}
+
 
 /* Benefits */
 .benefits {
