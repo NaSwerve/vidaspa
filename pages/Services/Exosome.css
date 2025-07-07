@@ -354,6 +354,69 @@ ul {
   object-fit: cover;
 }
 
+.about-exosomes {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 90px;
+}
+
+.about-exosomes h2{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "zilla slab", serif;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-exosomes p {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.about-exosomes ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-exosomes li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.about-exosomes li::marker {
+  color: #333;
+}
+
+.Ext-exosome {
+  width: 100%;
+  margin: 60px auto;
+  padding: 0 40px;
+  background: rgba(136, 136, 241, 0.205);
+}
+
+.Ext-exosome h2{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "zilla slab", serif;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.Ext-exosome p{
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.Ext-exosome span{
+  font-weight: 500;
+}
+
+
 
 /* Benefits */
 .benefits {
@@ -627,6 +690,11 @@ footer{
 }
 .experience-content h2{
   text-align: center;
+}
+
+.about-exosomes {
+  padding: 0 5px;
+  margin: 0 5px;
 }
 
 .benefits {
