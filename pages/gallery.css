@@ -21,7 +21,7 @@ section {
 :root {
   --colorfooter: #936045;
   --colorHeader: #c6975d;
-  --colorbody: rgb(213, 220, 224);
+  --colorbody: #ded6c7;
 }
 
 .head h1 {
@@ -81,9 +81,9 @@ section {
 }
 
 .logo span {
-  font-family: "Tangerine", sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .logo img {
@@ -133,7 +133,7 @@ section {
 }
 
 .book-btn {
-  background: linear-gradient(135deg, #49aa11, #48a02d);
+  background: linear-gradient(135deg, #4CA771, #4CA771);
   color: white;
   border: none;
   padding: 12px 24px;
@@ -233,8 +233,8 @@ section {
 footer {
   width: 100%;
   height: 100px;
-  background: #8b4513;
-  color: #f1efef;
+  background: #D3A373;
+  color: #1f1e1e;
   padding: 5px 10% 20px 10%;
 }
 .footer_content {
@@ -244,6 +244,7 @@ footer {
 }
 .logo2 {
   width: 90px;
+  height: 90px;
   border-radius: 50%;
 }
 .location h2 {
@@ -287,12 +288,12 @@ footer {
   }
 
   .hero {
-  padding-top: 80px;
-}
+    padding-top: 80px;
+  }
 
-  .logo {
+  .logo img{
     width: 80px;
-    height: 70px;
+    height: 80px;
   }
   button {
     display: none;
@@ -308,26 +309,26 @@ footer {
     padding: 50px 2%;
   }
 
-  footer{
-          padding: 20px 4% 20px 4%;
-          margin-top: -10%;
-      }
-  
-      .location h2{
-          font-size: 10px;
-      }
-      .location p{
-          line-height: 1.2;
-          font-size: 4px;
-      }
-      .footer_content p{
-          font-size: 10px;
-      }
-      .logo2 {
-          width: 80px;
-          height: 80px;
-          border-radius: 50%;
-        }
+  footer {
+    padding: 20px 4% 20px 4%;
+    margin-top: -10%;
+  }
+
+  .location h2 {
+    font-size: 10px;
+  }
+  .location p {
+    line-height: 1.2;
+    font-size: 4px;
+  }
+  .footer_content p {
+    font-size: 10px;
+  }
+  .logo2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
 }
 
 @media (max-width: 468px) {
@@ -353,8 +354,6 @@ footer {
     gap: 5px;
   }
 }
-
-
 
 /* Mobile Menu Animation */
 .mobile-menu.active {
