@@ -709,7 +709,7 @@ footer {
   }
 
   .testimonial blockquote {
-    padding: 20px 60px;
+    padding: 20px 0;
     font-size: 14px;
     line-height: 1.2;
   }
