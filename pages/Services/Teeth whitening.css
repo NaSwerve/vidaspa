@@ -16,6 +16,7 @@ body {
   --colorfooter: #936045;
   --colorHeader: #c6975d;
   --colorbody: #ded6c7;
+  --bodylight: #faf5eb;
 }
 
 a {
@@ -272,7 +273,7 @@ ul {
   width: 100%;
   margin: 60px auto;
   padding: 0 40px;
-  background: rgba(136, 136, 241, 0.205);
+  background: var(--bodylight);
 }
 
 .experience-content {
@@ -347,7 +348,7 @@ ul {
   margin: 60px auto;
   padding: 10px 70px;
   text-align: center;
-  background: rgba(136, 136, 241, 0.205);
+  background: var(--bodylight);
 }
 
 .testimonial blockquote {
@@ -456,8 +457,9 @@ ul {
 
 .appointment {
   padding: 0.5rem 1.5rem;
-  background: linear-gradient(135deg, #4CA771, #4CA771);
+  background: #8B4513;
   width: 50%;
+  border-radius: 25px;
   transition: 0.4s ease-in-out;
   cursor: pointer;
 }
@@ -472,8 +474,8 @@ ul {
 footer {
   width: 100%;
   height: 100px;
-  background: #d3a373;
-  color: #1f1e1e;
+  background: #757473;
+  color: #fffafa;
   padding: 5px 10% 20px 10%;
 }
 .footer_content {
