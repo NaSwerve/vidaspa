@@ -157,7 +157,7 @@ body {
 }
 
 .book-btn {
-  background: linear-gradient(135deg, #4CA771, #4CA771);
+  background: #8B4513;
   color: white;
   border: none;
   padding: 12px 24px;
@@ -233,7 +233,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #dec1b3 0%, #a69f89 50%, #ded6c7 100%);
+  background: #F5EBE1;
   position: relative;
   overflow: hidden;
   padding-top: 80px;
@@ -282,7 +282,7 @@ body {
 }
 
 .cta-btn {
-  background: linear-gradient(135deg, #4CA771, #4CA771);;
+  background: #8B4513;
   color: white;
   border: none;
   padding: 15px 30px;
@@ -386,7 +386,7 @@ body {
 }
 
 .service-btn {
-  background: linear-gradient(135deg, #4CA771, #4CA771);;
+  background: #8b4513;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -410,7 +410,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: linear-gradient(135deg, #4CA771, #4CA771);;
+  background: linear-gradient(135deg, #114d29, #104726);
   color: white;
   text-decoration: none;
   padding: 15px 30px;
@@ -800,7 +800,7 @@ body {
 /* Treatments Page */
 .treatments-hero {
   padding: 150px 0 100px;
-  background: linear-gradient(135deg, #dec1b3 0%, #a69f89 50%, #ded6c7 100%);
+  background: #F5EBE1;
   text-align: center;
 }
 
@@ -834,8 +834,8 @@ body {
 footer{
       width: 100%;
       height: 100px;
-      background: #D3A373;
-      color: #222121;
+      background: #757473;
+      color: #fffafa;
       padding: 5px 10% 20px 10%;
   }
   .footer_content{
