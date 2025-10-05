@@ -1065,3 +1065,24 @@ footer{
     grid-template-columns: 1fr;
   }
 }
+/* ===== FINAL HARD OVERRIDES FOR DESKTOP ===== */
+@media (min-width: 1024px) {
+  /* 1) Force ANY grid-like wrapper in the Treatments section to be a 3-col grid */
+  .all-treatments .container > div,
+  .all-treatments .treatments-grid,
+  .all-treatments [class*="grid"] {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(300px, 1fr)) !important;
+    gap: 24px !important;
+  }
+
+  /* 2) Absolutely block any item from spanning full width */
+  .all-treatments .container > div > *,
+  .all-treatments .treatments-grid > *,
+  .all-treatments [class*="grid"] > * {
+    grid-column: span 1 !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+}
+
