@@ -15,7 +15,7 @@ body {
 /* //Floating whatsapp icon */
 #whatsapp .wtsapp{
   position: fixed;
-  transform: all .5s ease;
+  transition: all .5s ease;
   background-color: #25d366;
   display: block;
   text-align: center;
@@ -1065,4 +1065,3 @@ footer{
     grid-template-columns: 1fr;
   }
 }
-
