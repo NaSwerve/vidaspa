@@ -1013,3 +1013,56 @@ footer{
 .mobile-menu-btn.active span:nth-child(3) {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
+/* ==== Desktop: keep all treatment cards same size (no full-width/hero) ==== */
+@media (min-width: 1024px) {
+  /* Your grid wrapper – change the selector to whatever you use (e.g., .services-grid, .treatments-grid) */
+  .treatments-grid, .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 even columns on desktop */
+    gap: 24px;
+  }
+
+  /* Stop any card from spanning the whole row */
+  .treatments-grid > * ,
+  .services-grid > * ,
+  .treatment-card,
+  .service-card,
+  .card,
+  .card.wide,
+  .card.hero {
+    grid-column: auto !important;
+  }
+}
+
+/* Consistent card sizing */
+.treatment-card, .service-card, .card {
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make images crop nicely and keep heights consistent */
+.treatment-card img,
+.service-card img,
+.card img {
+  width: 100%;
+  height: 220px;          /* adjust to taste */
+  object-fit: cover;
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 680px) and (max-width: 1023px) {
+  .treatments-grid, .services-grid {
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+  }
+}
+
+/* Mobile: 1 column (unchanged) */
+@media (max-width: 679px) {
+  .treatments-grid, .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
